@@ -23,6 +23,21 @@ align-content: center;
     padding-left: 3%;
 }
 
+.money{
+    display: none;
+}
+
+.lol{
+    height: 4em;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: rgb(244, 244, 244);
+    color: black;
+    text-align: center;
+    margin: 0;
+}
+
 .navTabs{
     height: 4em;
     display: inline-flex;
@@ -160,7 +175,7 @@ align-content: center;
 .headline{
     display: inline;
     font-family: "Roboto" , sans-serif;
-    color: rgb(100, 100, 100);
+    color: rgb(245, 245, 245);
     font-size: 2rem;
 }
 
@@ -221,6 +236,7 @@ align-content: center;
 
 .sideblogs{
     overflow:auto;
+    height: 100%;
 }
 
 .blogs{
