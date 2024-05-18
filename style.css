@@ -154,6 +154,7 @@ align-content: center;
     position: absolute;
     top: 65%;
     left: 10%;
+    width: 18em;
 }
 
 .figtxt2{
@@ -176,7 +177,7 @@ align-content: center;
     display: inline;
     font-family: "Roboto" , sans-serif;
     color: rgb(245, 245, 245);
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .headline1{
