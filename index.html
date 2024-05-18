@@ -20,9 +20,20 @@
 
 
 <body style="margin: 0; background-color: rgb(234, 234, 234);">
+
     <div id="wrapper">
+
         <div class="head">
             <a class="heading">TheNewsHive</a>
+        </div>
+
+        <div class="money" style="align-items: center;">
+            <p class="lol">IF YOU WANT THIS ARROW TO DO SOMETHING THEN GIVE ME MONEY!!!!<br><button onclick="back()" style="background-color: black; color: white; cursor: pointer;">BACK</button></p>
+        </div>
+
+        <div class="srch" style="display: none;">
+            <input type="text" placeholder="Search (You Won't Find Anything)" name="Search" style="width: 90%; height: 2rem;">
+            <button onclick="back1()" style="background-color: black; color: white; cursor: pointer; height: 2em; width: 5%;">Back</button>
         </div>
 
         <div class="navTabs">
@@ -49,13 +60,13 @@
                 <a>SPORTS</a>
             </div>
 
-            <button class="downarrow">
+            <button class="downarrow" onclick="arrow()">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="100%"> 
                     <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                 </svg>
             </button>
 
-            <button class="search">
+            <button class="search" onclick="search()">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="100%" style=" float: right; padding-right: 6%">
                     <path fill-rule="evenodd" d="M10.5 3.75a6.75 6.75 0 1 0 0 13.5 6.75 6.75 0 0 0 0-13.5ZM2.25 10.5a8.25 8.25 0 1 1 14.59 5.28l4.69 4.69a.75.75 0 1 1-1.06 1.06l-4.69-4.69A8.25 8.25 0 0 1 2.25 10.5Z" clip-rule="evenodd" />
                 </svg>
@@ -89,16 +100,16 @@
             <div style="width: 34em;">
 
                 <figure style="position: relative; margin: 0; cursor: pointer;">
-                    <img src="/Task 1/Images/img1.jpeg" alt="Img" style="height: 28em; width: 30em; border-radius: 1em;">
+                    <img class="img1" src="/Task 1/Images/img1.jpeg" alt="Img" style="height: 28em; width: 30em; border-radius: 1em;">
 
                     <figcaption class="figtxt1">
 
                         <div style="width: 18em; margin-bottom: 1em;">
-                            <button class="tags">Culture</button>
                             <button class="tags">Featured</button>
+                            <button class="tags type1">Culture</button>
                         </div>
 
-                        <p class="headline">Why reading<br> newspapers are more..</p>
+                        <p class="headline head1">Why reading<br> newspapers are more..</p>
 
                         <div style="margin-top: 0.5em;">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="4%" style="color: rgb(245, 245, 245);;">
@@ -118,23 +129,23 @@
             <div style="width: 23.5em;">
 
                 <figure style="position: relative; margin: 0; cursor: pointer;">
-                    <img src="/Task 1/Images/img2.jpg" alt="Img" style="height: 28em; width: 20em; border-radius: 1em;">
+                    <img class="img2" src="/Task 1/Images/img2.jpg" alt="Img" style="height: 28em; width: 20em; border-radius: 1em;">
 
                     <figcaption class="figtxt1">
 
                         <div style="width: 18em; margin-bottom: 1em;">
                             <button class="tags">Featured</button>
-                            <button class="tags">Lifestyle</button>
+                            <button class="tags type2">Lifestyle</button>
                         </div>
 
-                        <p class="headline">Jane became<br>one of the most..</p>
+                        <p class="headline head2">Jane became<br>one of the most..</p>
 
                         <div style="margin-top: 0.5em;">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="5%">
                                 <path fill-rule="evenodd" d="M6.75 2.25A.75.75 0 0 1 7.5 3v1.5h9V3A.75.75 0 0 1 18 3v1.5h.75a3 3 0 0 1 3 3v11.25a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V7.5a3 3 0 0 1 3-3H6V3a.75.75 0 0 1 .75-.75Zm13.5 9a1.5 1.5 0 0 0-1.5-1.5H5.25a1.5 1.5 0 0 0-1.5 1.5v7.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5v-7.5Z" clip-rule="evenodd" />
                             </svg>
 
-                            <p style="display: inline; padding-left: 1%; color: rgb(81, 81, 81);">25 January 2023</p>
+                            <p style="display: inline; padding-left: 1%; color: rgb(245, 245, 245);">25 January 2023</p>
 
                         </div>
                         
@@ -148,16 +159,16 @@
 
                 <figure style="position: relative; margin: 0; cursor: pointer;">
 
-                    <img src="/Task 1/Images/img3.jpeg" alt="Img" style="height: 13.5em; width: 17em; border-radius: 1em;">
+                    <img class="img3"  src="/Task 1/Images/img3.jpeg" alt="Img" style="height: 13.5em; width: 17em; border-radius: 1em;">
 
                     <figcaption class="figtxt2">
 
                         <div style="width: 15em; margin-bottom: 1em;">
                             <button class="tags">Featured</button>
-                            <button class="tags">Food</button>
+                            <button class="tags type3">Food</button>
                         </div>
 
-                        <p class="headline1">Why are the best<br>type coffee..</p>
+                        <p class="headline1 head3">Why are the best<br>type coffee..</p>
 
                         <div style="margin-top: 1em ;">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="6%" style="color: rgb(245, 245, 245);;">
@@ -174,16 +185,16 @@
     
                 <figure style="position: relative; margin: 0; margin-top: 1em; cursor: pointer;">
 
-                    <img src="/Task 1/Images/img4.jpg" alt="Img" style="height: 13.5em; width: 17em; border-radius: 1em;">
+                    <img  class="img4" src="/Task 1/Images/img4.jpg" alt="Img" style="height: 13.5em; width: 17em; border-radius: 1em;">
 
                     <figcaption class="figtxt2">
 
                         <div style="width: 15em; margin-bottom: 1em;">
                             <button class="tags">Featured</button>
-                            <button class="tags">Health</button>
+                            <button class="tags type4">Health</button>
                         </div>
 
-                        <p class="headline1">Why are the best<br>type coffee..</p>
+                        <p class="headline1 head4">Why are the best<br>type coffee..</p>
 
                         <div style="margin-top: 1em;">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="6%" style="color: rgb(245, 245, 245);;">
@@ -211,11 +222,11 @@
                     
                     <div class="blogs">
                         <div>
-                            <img src="/Task 1/Images/img5.jpeg" alt="Pic" style="height: 5em; width: 6em; border-radius: 0.5em;">
+                            <img  class="img5" src="/Task 1/Images/img5.jpeg" alt="Pic" style="height: 5em; width: 6em; border-radius: 0.5em;">
                         </div>
 
                         <div style="display: flex; flex-direction: column;">
-                            <p class="text">ICC T20 World Cup<br>2020 Schedule Update<br></p>
+                            <p class="text head5">ICC T20 World Cup<br>2020 Schedule Update<br></p>
 
                             <div style="padding-left: 6%; padding-top: 6%;">
 
@@ -237,11 +248,11 @@
 
                     <div class="blogs">
                         <div>
-                            <img src="/Task 1/Images/img6.jpeg" alt="Pic" style="height: 5em; width: 6em; border-radius: 0.5em;">
+                            <img  class="img6" src="/Task 1/Images/img6.jpeg" alt="Pic" style="height: 5em; width: 6em; border-radius: 0.5em;">
                         </div>
 
                         <div style="display: flex; flex-direction: column;">
-                            <p class="text">Tropical Depression:<br>Mexico Pacific<br></p>
+                            <p class="text head6">Tropical Depression:<br>Mexico Pacific<br></p>
 
                             <div style="padding-left: 6%; padding-top: 6%;">
 
@@ -262,11 +273,11 @@
 
                     <div class="blogs">
                         <div>
-                            <img src="/Task 1/Images/img5.jpeg" alt="Pic" style="height: 5em; width: 6em; border-radius: 0.5em;">
+                            <img  class="img7" src="/Task 1/Images/img5.jpeg" alt="Pic" style="height: 5em; width: 6em; border-radius: 0.5em;">
                         </div>
 
                         <div style="display: flex; flex-direction: column;">
-                            <p class="text">ICC T20 World Cup<br>2020 Schedule Update<br></p>
+                            <p class="text head7">ICC T20 World Cup<br>2020 Schedule Update<br></p>
 
                             <div style="padding-left: 6%; padding-top: 6%;">
 
@@ -287,11 +298,61 @@
 
                     <div class="blogs">
                         <div>
-                            <img src="/Task 1/Images/img6.jpeg" alt="Pic" style="height: 5em; width: 6em; border-radius: 0.5em;">
+                            <img  class="img8" src="/Task 1/Images/img6.jpeg" alt="Pic" style="height: 5em; width: 6em; border-radius: 0.5em;">
                         </div>
 
                         <div style="display: flex; flex-direction: column;">
-                            <p class="text">Tropical Depression:<br>Mexico Pacific<br></p>
+                            <p class="text head8">Tropical Depression:<br>Mexico Pacific<br></p>
+
+                            <div style="padding-left: 6%; padding-top: 6%;">
+
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="calender">
+                                        <path fill-rule="evenodd" d="M6.75 2.25A.75.75 0 0 1 7.5 3v1.5h9V3A.75.75 0 0 1 18 3v1.5h.75a3 3 0 0 1 3 3v11.25a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V7.5a3 3 0 0 1 3-3H6V3a.75.75 0 0 1 .75-.75Zm13.5 9a1.5 1.5 0 0 0-1.5-1.5H5.25a1.5 1.5 0 0 0-1.5 1.5v7.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5v-7.5Z" clip-rule="evenodd" />
+                                    </svg>
+
+                                    <p style="display: inline; padding-left: 1%; color: rgb(115, 115, 115);">24 January 2023</p>
+                                    
+                                </div>
+
+                            </div>
+                            
+                        </div>
+
+                    </div>
+
+                    <div class="blogs">
+                        <div>
+                            <img  class="img9" src="/Task 1/Images/img6.jpeg" alt="Pic" style="height: 5em; width: 6em; border-radius: 0.5em;">
+                        </div>
+
+                        <div style="display: flex; flex-direction: column;">
+                            <p class="text head9">Tropical Depression:<br>Mexico Pacific<br></p>
+
+                            <div style="padding-left: 6%; padding-top: 6%;">
+
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="calender">
+                                        <path fill-rule="evenodd" d="M6.75 2.25A.75.75 0 0 1 7.5 3v1.5h9V3A.75.75 0 0 1 18 3v1.5h.75a3 3 0 0 1 3 3v11.25a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V7.5a3 3 0 0 1 3-3H6V3a.75.75 0 0 1 .75-.75Zm13.5 9a1.5 1.5 0 0 0-1.5-1.5H5.25a1.5 1.5 0 0 0-1.5 1.5v7.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5v-7.5Z" clip-rule="evenodd" />
+                                    </svg>
+
+                                    <p style="display: inline; padding-left: 1%; color: rgb(115, 115, 115);">24 January 2023</p>
+                                    
+                                </div>
+
+                            </div>
+                            
+                        </div>
+
+                    </div>
+
+                    <div class="blogs">
+                        <div>
+                            <img  class="img10" src="/Task 1/Images/img6.jpeg" alt="Pic" style="height: 5em; width: 6em; border-radius: 0.5em;">
+                        </div>
+
+                        <div style="display: flex; flex-direction: column;">
+                            <p class="text head10">Tropical Depression:<br>Mexico Pacific<br></p>
 
                             <div style="padding-left: 6%; padding-top: 6%;">
 
@@ -317,6 +378,8 @@
         </div>
 
     </div>
+
+    <script src="script.js"></script>
 
 </body>
 
